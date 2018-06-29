@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8D5C341920E652AD008ED031 /* File.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = File.strings; path = "成绩录入/File.strings"; sourceTree = "<group>"; };
 		8D88D64620E5B38D0010236B /* 成绩录入 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "成绩录入"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D88D64920E5B38D0010236B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8D88D65020E5C55C0010236B /* Desktop */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Desktop; path = ../../../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		8D88D63D20E5B38D0010236B = {
 			isa = PBXGroup;
 			children = (
+				8D5C341920E652AD008ED031 /* File.strings */,
 				8D88D64820E5B38D0010236B /* 成绩录入 */,
 				8D88D64720E5B38D0010236B /* Products */,
 			);
@@ -57,6 +60,7 @@
 		8D88D64820E5B38D0010236B /* 成绩录入 */ = {
 			isa = PBXGroup;
 			children = (
+				8D88D65020E5C55C0010236B /* Desktop */,
 				8D88D64920E5B38D0010236B /* main.cpp */,
 			);
 			path = "成绩录入";
@@ -246,6 +250,7 @@
 				8D88D64F20E5B38D0010236B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
